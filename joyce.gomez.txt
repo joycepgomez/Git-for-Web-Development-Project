@@ -1,16 +1,40 @@
 1. What is Semantic HTML?
  A semantic element clearly describes its meaning to both the browser and the developer. 
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
     2. What is HTML used for? 
+    is used to structure a web page and its content
     3. What is an attribute and where do we put it? 
+    Attributes provide additional information about elements, it goes inside opening tag and browser information about the tag. 
     4. What is the h1 tag used for? How many times should I use it on a page?
+    header tag, its used once 
     5. Name two tags that have required attributes
+    <a href> href tags and <a target=""> target tags 
     6. What do we put in the head of our HTML document? 
+    a <a href 
     7. What is an id? 
+    identifying an image 
     8. What elements can I add an id to? 
+    referencing id 
     9. How many times can I use the same id on a page? 
+    can be used multiple times but referenced differently. 
     10. What is a class? 
+    attribute 
     11. What elements can I add a class to? 
+    target 
     12. How many times can I use the same class on a page? 
+    several 
     13. How do I get my link to open in a new tab?
     14. What is the alt attribute in the image tag used for? 
     15. How do I reference an id?
