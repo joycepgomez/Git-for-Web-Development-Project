@@ -38,33 +38,46 @@
     13. How do I get my link to open in a new tab?
     by adding the target=”_blank” attribute.
     14. What is the alt attribute in the image tag used for? 
-    
-    15. How do I reference an id?
-    
+    an alternate text for an image
     16. What is the difference between a section and a div
-    
+    section defines section in a document like footer or header. A div defines division in a html doc
     17. What is CSS used for? 
-    
+     the language for describing the presentation of Web pages, including colors, layout, and fonts. the language for describing the presentation of Web pages, including colors, layout, and fonts.
     18. How to we select an element? Example - every h2 on the page
-    
+    h2 {
+    background-color: blue
+    }
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
-    
+    id is only applied to one element where as class can apply to multiple elements.
     20. How do we select classes in CSS?
-    
+    write a period (.) character, followed by the name of the class.
     21. How do we select a p element with a single class of “human””?
-    
+    <div> <p class="human">
     22. What is a parent child selector? When would this be useful?
-    
+    selects all elements that are a direct child of the specified element. It would be useful to select all elemnts that are direct child of the specific element. 
     23. How do you select all links within a div with the class of sidebar?
-    
+    #content .navigation .header h1.red {
+  /* Properties */
+}
     24. What is a pseudo selector? 
     targets an element in specific state
     25. What do we use the change the spacing between lines?
-    
+    <p> </p>
     26. What do we use to change the spacing between letters?
-    
+    select the letter spacing <h1> ect.. 
+    h1 {
+     letter-spacing: 3px;
+     }
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-    
+    div.a {
+    text-transform: uppercase;
+    }
+    div.a { 
+     text-transform: lowercase;
+     }
+     div.a { 
+      text-transform: capitalize;
+      }
     28. How do I add a 1px border around my div that is dotted and black?
     
     29. How do I select everything on the page? 
